@@ -1,0 +1,40 @@
+.parent{
+    position: relative;
+    height: 900px;
+    width: 1600px;
+    margin: auto;
+}
+.inner{
+    border: 1px solid #aaa;
+    width: 1280px;
+    height: 720px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    background: #FBD3E9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo {
+    float: right;
+}
+
+.logo_div {
+    height: 500px;
+    width: 750px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+.logo_style {
+    font-size: 128px;
+}
+
+.sub_title_style {
+    font-size: 32px;
+}
